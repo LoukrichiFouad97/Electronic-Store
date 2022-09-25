@@ -1,0 +1,89 @@
+.searchbar {
+  padding-top: 0.8rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid;
+
+    .searchbar-logo {
+      // border: 1px solid red;
+      cursor: pointer;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+      opacity: 0.5;
+      transition: all 0.4s ease-in-out;
+      display: none;
+    }
+
+    .hamburger-menu {
+      font-size: 1.5rem;
+      display: none;
+      @media (max-width: 1200px) {
+        display: block;
+      }
+    }
+
+    .sidebar {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 15rem;
+      background: red;
+      transition: all 0.4s ease-in-out;
+      margin-left: -15rem;
+      z-index: 100;
+    }
+
+    .search-bar {
+      // border: 1px solid green;
+      width: 50%;
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
+    }
+
+    .shortcuts {
+      // border: 1px solid orange;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      cursor: pointer;
+      .shortcut-1,
+      .shortcut-3 {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+      }
+      .shortcut-2 {
+        @media (max-width: 1200px) {
+          display: none;
+        }
+      }
+      .shortcut-icon {
+        font-size: 2rem;
+      }
+      .shortcut-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+        span {
+          font-size: 0.75rem;
+          margin-bottom: -0.2rem;
+        }
+
+        @media (max-width: 1200px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

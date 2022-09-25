@@ -1,0 +1,39 @@
+.navbar {
+  .container {
+    // background: rgb(226, 155, 183);
+
+    > div {
+      width: 100%;
+      margin: auto;
+    }
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+
+    .navbar-categories {
+      // background: red;
+    }
+    .navbar-list {
+      // background: olive;
+      li {
+        a {
+          color: #000;
+          &:hover {
+            color: #f52;
+          }
+        }
+      }
+    }
+    .navbar-discounts {
+      // background: aqua;
+
+      .discount-icon {
+        color: red;
+        margin-top: -10px;
+        margin-right: 5px;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

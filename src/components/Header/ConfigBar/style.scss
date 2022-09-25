@@ -1,0 +1,45 @@
+.configbar {
+  font-size: 0.9rem;
+  .container {
+    // border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-nav {
+    // background-color: red;
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+
+    .configbar-item {
+      color: white;
+      &:hover {
+        // color: #0070dc;
+        color: #f52;
+      }
+    }
+  }
+
+  &-options {
+    // background-color: wheat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3%;
+    flex-basis: 20%;
+
+    @media (max-width: 1200px) {
+      flex-basis: 100%;
+      justify-content: center;
+      gap: 1%;
+    }
+
+    a {
+      &:hover {
+        color: #0070dc;
+      }
+    }
+  }
+}
