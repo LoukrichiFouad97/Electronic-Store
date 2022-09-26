@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Dropdown, Nav, Row, Container } from "react-bootstrap";
 import { TbDiscount2 } from "react-icons/tb";
 import { BsFillCartCheckFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 import "./style.scss";
 
 function Navbar() {
@@ -25,10 +27,14 @@ function Navbar() {
           <Col md="8" className="navbar-list">
             <Nav as="ul">
               <Nav.Item as="li">
-                <Nav.Link href="#">Home</Nav.Link>
+                <Nav.Link>
+                  <Link to="/">Home</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <Nav.Link href="#">Shop</Nav.Link>
+                <Nav.Link>
+                  <Link to="/shop">Shop</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item as="li">
                 <Nav.Link href="#">Head Phones</Nav.Link>
@@ -37,10 +43,14 @@ function Navbar() {
                 <Nav.Link href="#">Cell Phones</Nav.Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <Nav.Link href="#">Blog</Nav.Link>
+                <Nav.Link>
+                  <Link to="/blog">Blog</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <Nav.Link href="#">Contact</Nav.Link>
+                <Nav.Link>
+                  <Link to="/contact">Contact</Link>
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>

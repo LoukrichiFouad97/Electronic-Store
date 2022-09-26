@@ -1,5 +1,5 @@
 .configbar {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   .container {
     // border: 1px solid orange;
     display: flex;
@@ -30,16 +30,17 @@
     gap: 3%;
     flex-basis: 20%;
 
+    .tracking-order-link {
+      color: white;
+      &:hover {
+        color: #f52;
+      }
+    }
+
     @media (max-width: 1200px) {
       flex-basis: 100%;
       justify-content: center;
       gap: 1%;
-    }
-
-    a {
-      &:hover {
-        color: #0070dc;
-      }
     }
   }
 }

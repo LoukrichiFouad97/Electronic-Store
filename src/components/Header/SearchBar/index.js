@@ -4,6 +4,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import "./style.scss";
 import Logo from "../../../assets/logo-no-background.png";
@@ -31,7 +32,9 @@ function SearchBar() {
           <FaTimes onClick={closeSidebar} />
         </div>
         <div className="searchbar-logo">
-          <img src={Logo} alt="" width="250px" />
+          <Link to="/">
+            <img src={Logo} alt="" width="250px" />
+          </Link>
         </div>
         <div className="search-bar">
           <InputGroup size="lg">
@@ -39,9 +42,7 @@ function SearchBar() {
               aria-label="Large"
               aria-describedby="inputGroup-sizing-sm"
             />
-            <InputGroup.Text id="inputGroup-sizing-lg" >
-              Large
-            </InputGroup.Text>
+            <InputGroup.Text id="inputGroup-sizing-lg">Large</InputGroup.Text>
           </InputGroup>
         </div>
         <div className="shortcuts">

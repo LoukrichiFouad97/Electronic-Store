@@ -1,6 +1,7 @@
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 function ConfigBar() {
@@ -9,8 +10,10 @@ function ConfigBar() {
       <div className="container">
         <Nav as="ul" className="configbar-nav ">
           <Nav.Item as="li">
-            <Nav.Link href="#" className="configbar-item">
-              About US
+            <Nav.Link>
+              <Link to="/about" className="configbar-item">
+                About US
+              </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as="li">
@@ -24,16 +27,18 @@ function ConfigBar() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as="li">
-            <Nav.Link href="#" className="configbar-item">
-              Wishlist
+            <Nav.Link href="#">
+              <Link to="/wishlist" className="configbar-item">
+                Wishlist
+              </Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>
 
         <div className="configbar-options">
-          <a href="#" className="text-white">
+          <Link to="/OrderTracking" className="tracking-order-link">
             Order Tracking
-          </a>
+          </Link>
           <Dropdown>
             <Dropdown.Toggle size="sm" id="dropdown-basic" variant="dark">
               EN
