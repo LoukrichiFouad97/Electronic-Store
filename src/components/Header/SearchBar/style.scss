@@ -9,6 +9,17 @@
     .searchbar-logo {
       // border: 1px solid red;
       cursor: pointer;
+
+      @media (max-width: 1200px) {
+        img {
+          width: 200px;
+        }
+      }
+      @media (max-width: 770px) {
+        img {
+          width: 170px;
+        }
+      }
     }
 
     .overlay {
