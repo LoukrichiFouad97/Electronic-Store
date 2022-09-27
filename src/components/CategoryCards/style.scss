@@ -1,0 +1,20 @@
+.category-cards {
+  margin-top: 1rem;
+}
+
+.category-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  background: #f0f3f8;
+  min-height: 250px;
+  @media (max-width: 990px ) {
+    margin-bottom: 0.8rem;
+  }
+  .card-content {
+  }
+
+  .card-image {
+  }
+}
