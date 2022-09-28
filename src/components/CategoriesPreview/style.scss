@@ -1,0 +1,48 @@
+.category-preview-card {
+  padding: 1.875rem;
+  border: 1px solid #e5e8ec;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .category-preview-card-image {
+    margin-right: 1rem;
+  }
+
+  .category-preview-card-content {
+    h3 {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.8;
+    }
+
+    ul {
+      margin-bottom: 0.9375rem;
+    }
+
+    ul > li:not(:first-child) {
+      margin-top: 2px;
+    }
+
+    .category-preview-content-link {
+      font-size: 0.8125rem;
+      color: #818ea0;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .category-preview-card-content-link {
+      font-size: 0.8125rem;
+      color: #0070dc;
+      font-weight: 600;
+
+      .category-preview-card-icon {
+        font-size: 0.8125rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

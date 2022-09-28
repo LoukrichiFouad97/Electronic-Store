@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import "./App.scss";
 
 // components
@@ -14,7 +13,6 @@ import TrendingProducts from "./components/TrendingProducts";
 import BestSeller from "./components/BestSeller";
 import CategoriesPreview from "./components/CategoriesPreview";
 import PartnerBrands from "./components/PartnerBrands";
-
 import Footer from "./components/Footer";
 
 function App() {

@@ -1,0 +1,27 @@
+.partner-brands {
+  padding: 1rem;
+  margin-block: 2rem;
+  .partner-brands-container {
+    .partner-brands-row {
+      .partner-brand-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .partner-brand-logo {
+          max-height: 3.75rem;
+          width: 70%;
+          @media (max-width: 990px) {
+            max-height: 2.75rem;
+            width: 55%;
+          }
+          > img {
+            opacity: 0.45;
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
