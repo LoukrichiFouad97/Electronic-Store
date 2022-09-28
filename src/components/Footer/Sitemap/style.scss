@@ -1,0 +1,29 @@
+.sitemap {
+  padding-block: 6.25rem;
+  // margin-top: 2rem;
+
+  .sitemap-col {
+    .sitemap-col-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 0.9375rem;
+      padding-bottom: 0.9375rem;
+      color: #021523;
+      @media (max-width: 576px) {
+        margin-top: 1rem;
+        padding-bottom: 0;
+      }
+    }
+
+    .sitemap-col-content {
+      font-size: 0.8125rem;
+      color: #818ea0;
+      ul li:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+      .sitemap-content-link {
+        color: inherit;
+      }
+    }
+  }
+}

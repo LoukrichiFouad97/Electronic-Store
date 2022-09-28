@@ -1,5 +1,5 @@
-.Best-Seller {
-  //   background: wheat;
+.special-offer {
+//   background: wheat;
   height: 825px;
   &-left {
     border: 2px solid #f52;
@@ -7,9 +7,9 @@
     padding: 1rem;
   }
   &-right {
-    .Best-Seller-products-container {
-      height: 50%;
-      .Best-Seller-product-preview {
+    .special-offer-products-container {
+        height: 50%;
+      .special-offer-product-preview {
         border: 1px solid black;
       }
     }

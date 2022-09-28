@@ -6,8 +6,16 @@ import Header from "./components/Header";
 import MainSlider from "./components/MainSlider";
 import Services from "./components/Services";
 import CategoryCards from "./components/CategoryCards";
-import BestSeller from "./components/BestSeller";
+import BestSellerCarousel from "./components/BestSellerCarousel";
 import CouponBanner from "./components/CouponBanner";
+import SpecialOffer from "./components/SpecialOffer";
+import SpecialOppertunity from "./components/SpecialOppertunity";
+import TrendingProducts from "./components/TrendingProducts";
+import BestSeller from "./components/BestSeller";
+import CategoriesPreview from "./components/CategoriesPreview";
+import PartnerBrands from "./components/PartnerBrands";
+
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,8 +24,15 @@ function App() {
       <MainSlider />
       <Services />
       <CategoryCards />
-      <BestSeller />
+      <BestSellerCarousel />
       <CouponBanner />
+      <SpecialOffer />
+      <SpecialOppertunity />
+      <TrendingProducts />
+      <BestSeller />
+      <CategoriesPreview />
+      <PartnerBrands />
+      <Footer />
     </div>
   );
 }
