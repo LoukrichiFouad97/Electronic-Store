@@ -1,0 +1,99 @@
+.trending-products {
+  margin-top: 1rem;
+  padding: 1rem;
+  .trending-products-head {
+    border-bottom: 1px solid #e5e8ec;
+    padding-bottom: 0.9375rem;
+    margin-bottom: 1.25rem;
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+    .trending-products-head-link {
+      font-size: 0.8125rem;
+    }
+  }
+
+  .trending-products-content {
+    padding: 0 0.9375rem 0.9375rem;
+
+    .product-wrapper {
+      .product-wrapper-col {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 0.9375rem 0.9rem;
+        margin-bottom: 0.5rem;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+          border-color: #e5e8ec;
+
+          .product-title-link {
+            color: red;
+          }
+        }
+
+        .product-thumbnail {
+          margin-right: 0.5rem;
+        }
+
+        .product-title {
+          margin-bottom: 0.75rem;
+          font-size: 0.875rem;
+          letter-spacing: -0.07px;
+          font-weight: 500;
+          line-height: 1.4;
+          &-link {
+            color: #021523;
+          }
+        }
+
+        .rating-icon {
+          color: #ffc21f;
+        }
+        .product-rating {
+          margin-bottom: 0.625rem;
+        }
+        .product-price {
+          margin-bottom: 0.625rem;
+          ins {
+            font-size: 1.3125rem;
+            color: red;
+            text-decoration: none;
+          }
+          del {
+            // font-size: 7%;
+            top: -2px;
+            margin-left: 0.4375rem;
+            color: #9aa5b3;
+          }
+        }
+
+        .product-details {
+          ul {
+            font-size: 0.75rem;
+            margin: 0;
+            padding-left: 0.9375rem;
+          }
+          ul li {
+            font-size: 0.75rem;
+            color: #818ea0;
+            &::marker {
+              content: "- ";
+              color: #818ea0;
+              font-size: 0.8rem;
+            }
+
+            &:not(:first-of-type) {
+              margin-top: 5px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
