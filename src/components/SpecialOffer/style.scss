@@ -45,7 +45,6 @@
 
   &-right {
     .special-offer-products-container {
-      height: 50%;
       padding: 1rem;
 
       .special-offer-product-preview {
@@ -108,7 +107,7 @@
               color: #fff;
             }
           }
-        }
+        } // end here
       }
     }
   }

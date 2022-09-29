@@ -5,7 +5,7 @@ import "./style.scss";
 
 function BestSellerCarousel() {
   return (
-    <div className="best-seller">
+    <div className="best-seller-product-carousel">
       <Container>
         <div className="counter">this is counter</div>
         <ProductSlider />

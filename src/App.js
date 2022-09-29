@@ -24,10 +24,10 @@ function App() {
       <CategoryCards />
       <BestSellerCarousel />
       <CouponBanner />
-      <SpecialOffer />
+      <BestSeller />
       <SpecialOppertunity />
       <TrendingProducts />
-      <BestSeller />
+      <SpecialOffer />
       <CategoriesPreview />
       <PartnerBrands />
       <Footer />
