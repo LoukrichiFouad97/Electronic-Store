@@ -1,14 +1,14 @@
 import React from "react";
-import {Container} from "react-bootstrap"
+import { Container } from "react-bootstrap";
 import ProductSlider from "../ProductSlider";
-import "./style.scss"
+import "./style.scss";
 
 function BestSellerCarousel() {
   return (
-    <div className="best-seller border border-warning">
+    <div className="best-seller">
       <Container>
         <div className="counter">this is counter</div>
-        <ProductSlider/>
+        <ProductSlider />
       </Container>
     </div>
   );

@@ -10,13 +10,13 @@ function CategoryCards() {
     <div className="category-cards">
       <Container>
         <Row>
-          <Col md="6" lg="4" className="">
+          <Col lg="6" xl="4" className="">
             <CategoryCard />
           </Col>
-          <Col md="6" lg="4" className="">
+          <Col lg="6" xl="4" className="">
             <CategoryCard />
           </Col>
-          <Col md="12" lg="4" className="">
+          <Col lg="12" xl="4" className="">
             <CategoryCard />
           </Col>
         </Row>
