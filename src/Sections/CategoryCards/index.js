@@ -1,8 +1,6 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import CategoryCard from "./CategoryCard";
-
 import "./style.scss";
 
 function CategoryCards() {

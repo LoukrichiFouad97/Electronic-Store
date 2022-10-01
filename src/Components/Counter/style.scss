@@ -1,0 +1,24 @@
+.count-down {
+  .count-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-theme-danger);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    width: 2rem;
+    height: 2.125rem;
+    color: #fff;
+  }
+
+  span {
+    position: relative;
+    top: 5px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+  }
+}

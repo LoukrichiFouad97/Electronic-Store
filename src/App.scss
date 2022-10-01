@@ -1,3 +1,23 @@
+:root {
+  --color-link: #0070dc;
+  --color-background: #fff;
+  --color-main-text: #021523;
+  --color-text-light: #818ea0;
+  --color-primary: #041e42;
+  --color-secondary: #ffbd27;
+  --color-form-border: #d9dde3;
+  --color-form-placeholder: #9aa5b3;
+  --color-theme-danger: #ef262c;
+  --color-theme-warning: #ff5c00;
+  --color-theme-info: #e8e8e8;
+  --color-theme-border: #e5e8ec;
+  --color-theme-success: #00a046;
+  --color-theme-light: #f2f3f5;
+  --color-product-fade-border: #e0e5ea;
+  --color-shop-button: #00a046;
+  --color-shop-button-active: #037535;
+}
+
 *,
 *::before,
 *::after {
@@ -26,8 +46,14 @@ ul {
   margin: 0;
   padding: 0;
 }
-// FFC21F yellow
 
-// .App {
-//   height: 6000px;
-// }
+.product-budge {
+  position: absolute;
+  z-index: 10;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  min-height: 1.5rem;
+  padding: 0.1rem 0.75rem;
+  border-radius: 1.5rem;
+}

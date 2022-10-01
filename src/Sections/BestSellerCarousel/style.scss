@@ -1,0 +1,27 @@
+.best-seller-product-carousel {
+  // margin-top: 3rem;
+
+  .best-seller-carousel-head {
+    padding-bottom: 0.9375rem;
+    margin-bottom: 1.25rem;
+
+    .best-seller-head-left {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      h4 {
+        font-size: 1.25rem;
+      }
+
+      .counter-text {
+        align-self: flex-end;
+        font-size: 0.75rem;
+      }
+    }
+    .view-all-link {
+      font-size: 0.8125rem;
+      color: var(--color-link);
+    }
+  }
+}

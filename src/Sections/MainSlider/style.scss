@@ -13,13 +13,13 @@
 
     h6 {
       font-size: 0.625rem;
-      background: #f52;
+      background: var(--color-secondary);
       align-items: center;
       display: inline-flex;
       padding-left: 0.9375rem;
       padding-right: 0.9375rem;
       border-radius: 1.4375rem;
-      color: white;
+      color: #000;
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 1.25rem;
