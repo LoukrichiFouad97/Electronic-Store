@@ -57,3 +57,16 @@ ul {
   padding: 0.1rem 0.75rem;
   border-radius: 1.5rem;
 }
+
+.form-button {
+  transition: all 80ms ease-in;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  background: var(--color-secondary);
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 20px;
+}

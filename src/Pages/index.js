@@ -10,12 +10,17 @@ import Blog from "./Blog";
 import About from "./About";
 import Wishlist from "./Wishlist";
 import OrderTracking from "./OrderTracking";
+import Auth from "./Auth";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "auth",
+    element: <Auth />,
   },
   {
     path: "contact",

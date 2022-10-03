@@ -1,4 +1,3 @@
-import React from "react";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
@@ -47,11 +46,13 @@ function SearchBar() {
         </div>
         <div className="shortcuts">
           <div className="shortcut-1">
-            <AiOutlineUser className="shortcut-icon" />
-            <div className="shortcut-text">
-              <span className="text-muted">Sing in</span>
-              <strong>Account</strong>
-            </div>
+            <Link to="/auth" className="shortcut-link">
+              <AiOutlineUser className="shortcut-icon" />
+              <div className="shortcut-text">
+                <span className="text-muted">Sing in</span>
+                <strong>Account</strong>
+              </div>
+            </Link>
           </div>
           <div className="shortcut-2">
             <FiHeart className="shortcut-icon" />
