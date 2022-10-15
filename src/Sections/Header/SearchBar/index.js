@@ -58,11 +58,13 @@ function SearchBar() {
             <FiHeart className="shortcut-icon" />
           </div>
           <div className="shortcut-3">
-            <AiOutlineShoppingCart className="shortcut-icon" />
-            <div className="shortcut-text">
-              <span className="text-muted">Total</span>
-              <strong>$0.00</strong>
-            </div>
+            <Link to="/cart" className="shortcut-link">
+              <AiOutlineShoppingCart className="shortcut-icon" />
+              <div className="shortcut-text">
+                <span className="text-muted">Total</span>
+                <strong>$0.00</strong>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -68,12 +68,14 @@
       align-items: center;
       gap: 0.7rem;
       cursor: pointer;
-      .shortcut-1 {
-        .shortcut-link {
-          display: flex;
-          color: #000;
-        }
+      .shortcut-link {
+        display: flex;
+        align-items: center;
+        // border: 1px solid ;
+        gap: 5px;
+        color: #000;
       }
+
       .shortcut-1,
       .shortcut-3 {
         display: flex;
